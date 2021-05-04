@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Editor</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="editor">
+		<div class="buttons">
+			<button class="btn" data-btntype="bold">Bold</button>
+			<button class="btn" data-btntype="italic">Italic</button>
+			<button class="btn" data-btntype="underline">Underline</button>
+			<button class="btn" data-btntype="createLink">Link</button>
+			<button class="btn" data-btntype="insertImage">Image</button>
+			<button class="btn" data-btntype="insertOrderedList">Ordered List</button>
+			<button class="btn" data-btntype="insertUnorderedList">Unordered List</button>
+			<button class="btn" data-btntype="justifyCenter">Center</button>
+			<button class="btn" data-btntype="justifyLeft">Left</button>
+			<button class="btn" data-btntype="justifyRight">Right</button>
+			<button class="btn" data-btntype="justifyFull">FullJustify</button>
+		</div>
+		<div class="text-div" >
+			<div id="textarea" contenteditable="true" ></div>
+			
+		</div>
+	</div>
+	<button id="sender" class="btn">Send Document</button>
+
+
+	<script type="text/javascript" src="main.js" ></script>
+</body>
+</html>
